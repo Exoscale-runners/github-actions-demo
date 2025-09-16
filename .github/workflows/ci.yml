@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build-and-deploy:
-    runs-on: self-hosted
+    runs-on: exo-arc-runner
     permissions:
       contents: write
     steps:
