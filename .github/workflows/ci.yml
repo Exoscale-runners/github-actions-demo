@@ -7,7 +7,7 @@ jobs:
   build-and-deploy:
     runs-on: exo-arc-runner
     container:
-      image: ghcr.io/catthehacker/ubuntu:act-latest
+      image: ghcr.io/catthehacker/ubuntu:full-22.04
     permissions:
       contents: write
     steps:
