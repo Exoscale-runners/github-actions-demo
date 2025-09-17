@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build-and-deploy:
-    runs-on: exo-arc-standard-runner
+    runs-on: exo-arc-gpu-runner
     permissions:
       contents: write
     steps:
