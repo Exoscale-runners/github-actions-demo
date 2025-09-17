@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build-and-deploy:
-    runs-on: [self-hosted, exo-arc-runner]   # labels from your ARC runner
+    runs-on: exo-arc-runner
     container:
       image: ghcr.io/catthehacker/ubuntu:runner-latest
     permissions:
